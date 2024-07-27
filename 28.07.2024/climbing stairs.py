@@ -1,8 +1,8 @@
 class Solution:
-    def climbStairs(self, n: int) -> int:
+    def climbStairs(self, n):
 
-        if x<=2:
-            return x
+        if n<=2:
+            return n
         else:
             a,b,c=1,2,0
             for i in range(2,n):
